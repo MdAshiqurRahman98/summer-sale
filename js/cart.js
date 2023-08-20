@@ -16,11 +16,10 @@ document.getElementById('card-1').addEventListener('click', function() {
     const previousTotalPrice = parseFloat(totalPriceElement.innerText);
 
     const newTotalPrice = previousTotalPrice + productPrice;
-
     totalPriceElement.innerText = newTotalPrice.toFixed(2);
 
-    if(totalPriceElement > 0) {
-        document.getElementById
+    if(newTotalPrice > 0.00) {
+        document.getElementById('btn-purchase').removeAttribute('disabled');
     }
 });
 
@@ -42,8 +41,11 @@ document.getElementById('card-2').addEventListener('click', function() {
     const previousTotalPrice = parseFloat(totalPriceElement.innerText);
 
     const newTotalPrice = previousTotalPrice + productPrice;
-
     totalPriceElement.innerText = newTotalPrice.toFixed(2);
+
+    if(newTotalPrice > 0.00) {
+        document.getElementById('btn-purchase').removeAttribute('disabled');
+    }
 });
 
 document.getElementById('card-3').addEventListener('click', function() {
@@ -64,8 +66,11 @@ document.getElementById('card-3').addEventListener('click', function() {
     const previousTotalPrice = parseFloat(totalPriceElement.innerText);
 
     const newTotalPrice = previousTotalPrice + productPrice;
-
     totalPriceElement.innerText = newTotalPrice.toFixed(2);
+
+    if(newTotalPrice > 0.00) {
+        document.getElementById('btn-purchase').removeAttribute('disabled');
+    }
 });
 
 document.getElementById('card-4').addEventListener('click', function() {
@@ -86,8 +91,11 @@ document.getElementById('card-4').addEventListener('click', function() {
     const previousTotalPrice = parseFloat(totalPriceElement.innerText);
 
     const newTotalPrice = previousTotalPrice + productPrice;
-
     totalPriceElement.innerText = newTotalPrice.toFixed(2);
+
+    if(newTotalPrice > 0.00) {
+        document.getElementById('btn-purchase').removeAttribute('disabled');
+    }
 });
 
 document.getElementById('card-5').addEventListener('click', function() {
@@ -108,8 +116,11 @@ document.getElementById('card-5').addEventListener('click', function() {
     const previousTotalPrice = parseFloat(totalPriceElement.innerText);
 
     const newTotalPrice = previousTotalPrice + productPrice;
-
     totalPriceElement.innerText = newTotalPrice.toFixed(2);
+
+    if(newTotalPrice > 0.00) {
+        document.getElementById('btn-purchase').removeAttribute('disabled');
+    }
 });
 
 document.getElementById('card-6').addEventListener('click', function() {
@@ -130,6 +141,9 @@ document.getElementById('card-6').addEventListener('click', function() {
     const previousTotalPrice = parseFloat(totalPriceElement.innerText);
 
     const newTotalPrice = previousTotalPrice + productPrice;
-
     totalPriceElement.innerText = newTotalPrice.toFixed(2);
+
+    if(newTotalPrice > 0.00) {
+        document.getElementById('btn-purchase').removeAttribute('disabled');
+    }
 });
