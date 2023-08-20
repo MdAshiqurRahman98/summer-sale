@@ -13,6 +13,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap"
         rel="stylesheet">
+    <!-- Font awesome -->
+    <script src="https://kit.fontawesome.com/e023a26ee9.js" crossorigin="anonymous"></script>
     <style>
         .font-work-sans {
             font-family: 'Work Sans', sans-serif;
@@ -20,19 +22,21 @@
     </style>
 </head>
 
-<body class="font-work-sans">
+<body class="font-work-sans bg-[#F8F8F8]">
     <!-- Header starts here -->
     <header>
         <section>
-            <div class="hero min-h-screen bg-[#F9F6E2] pb-28">
+            <div class="hero min-h-screen bg-[#F9F6E2] -mt-5">
                 <div class="hero-content flex-col lg:flex-row-reverse">
                     <img src="./images/Summer 1.png" class="max-w-md ml-11" />
                     <div>
                         <p class="text-center text-2xl font-medium mb-7 mt-11">---SALE FEVER---</p>
-                        <h1 class="text-5xl font-bold text-center mb-9">Purchase TK 200 or<br> above & get <span class="text-[#E527B2]">20% off</span></h1>
+                        <h1 class="text-5xl font-bold text-center mb-9">Purchase TK 200 or<br> above & get <span
+                                class="text-[#E527B2]">20% off</span></h1>
                         <div class="text-center">
                             <p class="inline text-lg font-medium">Use Promo Code</p>
-                            <button class="btn text-white bg-[#E527B2] hover:bg-[#E527B2] text-lg font-semibold ml-2">SELL200</button>
+                            <button
+                                class="btn text-white bg-[#E527B2] hover:bg-[#E527B2] text-lg font-semibold ml-2">SELL200</button>
                         </div>
                     </div>
                 </div>
@@ -42,7 +46,159 @@
     <!-- Header ends here -->
 
     <!-- Main starts here -->
-    <main></main>
+    <main>
+        <section class="max-w-screen-xl mx-auto px-8 md:px-16 lg:px-24 py-5 mb-5 mt-11">
+            <div class="flex flex-col lg:flex-row">
+                <div>
+                    <div>
+                        <h3 class="text-[27px] font-semibold mb-3">Kitchenware</h3>
+                        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3">
+                            <!-- Card 1 -->
+                            <div class="card p-5 rounded-lg bg-white text-center h-96">
+                                <figure class="bg-[#F8F8F8]"><img src="./images/prod1.png" alt="Product 1"
+                                        class="my-5" /></figure>
+                                <div class="card-body justify-center">
+                                    <p class="text-[#FFC107] my-2">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                    </p>
+                                    <p class="text-[17px] font-semibold">K. Accessories</p>
+                                    <p class="text-[17px] font-normal text-[#11111180]">39.00 TK</p>
+                                </div>
+                            </div>
+                            <!-- Card 2 -->
+                            <div class="card p-5 rounded-lg bg-white text-center h-96">
+                                <figure class="bg-[#F8F8F8]"><img src="./images/prod2.png" alt="Product 2"
+                                        class="my-5" /></figure>
+                                <div class="card-body justify-center">
+                                    <p class="text-[#FFC107] my-2">
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                    </p>
+                                    <p class="text-[17px] font-semibold">K. Accessories</p>
+                                    <p class="text-[17px] font-normal text-[#11111180]">25.00 TK</p>
+                                </div>
+                            </div>
+                            <!-- Card 3 -->
+                            <div class="card p-5 rounded-lg bg-white text-center h-96">
+                                <figure class="bg-[#F8F8F8]"><img src="./images/prod3.png" alt="Product 3"
+                                        class="my-5" /></figure>
+                                <div class="card-body justify-center">
+                                    <p class="text-[#FFC107] my-2">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                    </p>
+                                    <p class="text-[17px] font-semibold">Home Cooker</p>
+                                    <p class="text-[17px] font-normal text-[#11111180]">49.00 TK</p>
+                                </div>
+                            </div>
+                            <!-- Cart 1 -->
+                            <div>
+                                <div class="card p-4 rounded-lg bg-white">
+                                    <p class="font-medium">Have coupon?</p>
+                                    <div class="flex mt-2">
+                                        <input type="text" placeholder="Coupon code"
+                                            class="input input-bordered w-full max-w-xs text-sm rounded-r-none rounded-l-lg border-r-transparent" />
+                                        <button
+                                            class="btn text-white bg-[#E527B2] hover:bg-[#E527B2] text-sm font-semibold -ml-3 rounded-r-lg rounded-l-none normal-case"
+                                            disabled>Apply</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="text-[27px] font-semibold mb-3 mt-9">Furniture</h3>
+                        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3">
+                            <!-- Card 4 -->
+                            <div class="card p-5 rounded-lg bg-white text-center h-96">
+                                <figure class="bg-[#F8F8F8]"><img src="./images/prod7.png" alt="Product 7"
+                                        class="my-5" /></figure>
+                                <div class="card-body justify-center">
+                                    <p class="text-[#FFC107] my-2">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                    </p>
+                                    <p class="text-[17px] font-semibold">Single Relax Chair</p>
+                                    <p class="text-[17px] font-normal text-[#11111180]">185.00 TK</p>
+                                </div>
+                            </div>
+                            <!-- Card 5 -->
+                            <div class="card p-5 rounded-lg bg-white text-center h-96">
+                                <figure class="bg-[#F8F8F8]"><img src="./images/prod8.png" alt="Product 8"
+                                        class="my-5" /></figure>
+                                <div class="card-body justify-center">
+                                    <p class="text-[#FFC107] my-2">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </p>
+                                    <p class="text-[17px] font-semibold">Children play</p>
+                                    <p class="text-[17px] font-normal text-[#11111180]">299.00 TK</p>
+                                </div>
+                            </div>
+                            <!-- Card 6 -->
+                            <div class="card p-5 rounded-lg bg-white text-center h-96">
+                                <figure class="bg-[#F8F8F8]"><img src="./images/prod9.png" alt="Product 9"
+                                        class="my-5" /></figure>
+                                <div class="card-body justify-center">
+                                    <p class="text-[#FFC107]">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </p>
+                                    <p class="text-[17px] font-semibold">Flexible Sofa</p>
+                                    <p class="text-[17px] font-normal text-[#11111180]">339.00 TK</p>
+                                </div>
+                            </div>
+                            <!-- Cart 2 -->
+                            <div>
+                                <div class="card p-8 rounded-lg bg-white -mt-[345px]">
+                                    <div></div>
+                                    <div>
+                                        <hr class="my-2">
+                                        <h5 class="font-medium my-1">Total price: <span>00.00</span>TK</h5>
+                                        <h5 class="font-medium mb-1">Discount: <span>00.00</span>TK</h5>
+                                        <h5 class="font-medium mb-1">Total: <span>00.00</span> TK</h5>
+                                        <hr class="my-2">
+                                        <button class="btn text-white bg-[#E527B2] hover:bg-[#E527B2] text-sm font-semibold normal-case ml-7 mt-3" onclick="my_modal_5.showModal()">Make Purchase</button>
+                                        <dialog id="my_modal_5" class="modal modal-bottom sm:modal-middle">
+                                            <form method="dialog" class="modal-box">
+                                                <figure class="text-center mt-7 mb-5">
+                                                    <img src="./images/congo.png" alt="Congratulations" class="w-1/4">
+                                                </figure>
+                                                <h3 class="font-bold text-3xl text-center">Congratulations</h3>
+                                                <p class="py-4 text-[#11111180] text-[17px] font-normal text-center">You have purchased the product</p>
+                                                <div class="modal-action">
+                                                    <button class="btn text-white bg-[#E527B2] hover:bg-[#E527B2] text-sm font-semibold normal-case mr-[183px] -mt-2 mb-11">Go Home</button>
+                                                </div>
+                                            </form>
+                                        </dialog>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
     <!-- Main ends here -->
 </body>
 
