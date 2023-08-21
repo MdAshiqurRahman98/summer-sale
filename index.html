@@ -106,9 +106,9 @@
                                 <div class="card p-4 rounded-lg bg-white">
                                     <p class="font-medium">Have coupon?</p>
                                     <div class="flex mt-2">
-                                        <input type="text" placeholder="Coupon code"
+                                        <input id="input" type="text" placeholder="Coupon code"
                                             class="input input-bordered w-full max-w-xs text-sm rounded-r-none rounded-l-lg border-r-transparent" />
-                                        <button
+                                        <button id="btn-apply"
                                             class="btn text-white bg-[#E527B2] hover:bg-[#E527B2] text-sm font-semibold -ml-3 rounded-r-lg rounded-l-none normal-case"
                                             disabled>Apply</button>
                                     </div>
@@ -173,9 +173,9 @@
                                     <div id="product-list" class="text-[17px] font-semibold"></div>
                                     <div>
                                         <hr class="my-2">
-                                        <h5 class="font-medium my-1">Total price: <span id="total-price">00.00</span>TK</h5>
-                                        <h5 class="font-medium mb-1">Discount: <span id="discount">00.00</span>TK</h5>
-                                        <h5 class="font-medium mb-1">Total: <span id="total">00.00</span> TK</h5>
+                                        <h5 class="font-medium my-1">Total price: <span id="total-price">0.00</span>TK</h5>
+                                        <h5 class="font-medium mb-1">Discount: <span id="discount">0.00</span>TK</h5>
+                                        <h5 class="font-medium mb-1">Total: <span id="total">0.00</span> TK</h5>
                                         <hr class="my-2">
                                         <button id="btn-purchase" class="btn text-white bg-[#E527B2] hover:bg-[#E527B2] text-sm font-semibold normal-case ml-7 mt-3" onclick="my_modal_5.showModal()" disabled>Make Purchase</button>
                                         <dialog id="my_modal_5" class="modal modal-bottom sm:modal-middle">
@@ -202,6 +202,6 @@
     <!-- Main ends here -->
 
     <script src="./js/cart.js"></script>
+    <script src="./js/coupon.js"></script>
 </body>
-
 </html>
